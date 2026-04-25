@@ -1,0 +1,6 @@
+.env
+qdrant_db/
+__pycache__/
+output.txt
+debug_qdrant.py
+*.pdf
