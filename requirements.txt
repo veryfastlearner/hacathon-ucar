@@ -1,0 +1,9 @@
+qdrant-client
+groq
+tavily-python
+python-dotenv
+pymupdf
+flask
+flask-cors
+fastembed
+gunicorn
