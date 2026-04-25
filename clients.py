@@ -3,11 +3,15 @@ import fitz  # PyMuPDF
 from qdrant_client import QdrantClient
 from groq import Groq
 from tavily import TavilyClient
-from config import GROQ_API_KEY, TAVILY_API_KEY, DATA_FOLDER, COLLECTION_NAME
+from supabase import create_client
+from fastembed import TextEmbedding
+from config import GROQ_API_KEY, TAVILY_API_KEY, DATA_FOLDER, COLLECTION_NAME, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
 
 # Initialize LLM and Search Clients
 groq = Groq(api_key=GROQ_API_KEY)
 tavily = TavilyClient(api_key=TAVILY_API_KEY)
+supabase = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+embed_model = TextEmbedding()
 
 def _build_memory_db() -> QdrantClient:
     """Load PDFs into an in-memory Qdrant instance using FastEmbed."""

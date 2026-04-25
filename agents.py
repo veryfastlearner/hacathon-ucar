@@ -1,5 +1,6 @@
 from gatekeeper import gatekeeper
 from librarian import librarian
+from librarian_supabase import librarian_supabase
 from researcher import researcher
 from constructor import constructor
 
@@ -19,8 +20,8 @@ def run_pipeline(question: str) -> str:
             f"and its 32 affiliated institutions."
         )
 
-    # Steps 2 & 3: Librarian + Researcher
-    lib_result = librarian(question)
+    # Steps 2 & 3: Librarian (Supabase) + Researcher
+    lib_result = librarian_supabase(question)
     res_result = researcher(question)
 
     # Step 4: Constructor

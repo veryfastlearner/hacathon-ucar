@@ -2,47 +2,44 @@
 
 A multi-agent RAG (Retrieval-Augmented Generation) system designed for University Carthage (UCAR). It helps users navigate institutional documents and access key performance indicators (KPIs) through a collaborative agent architecture.
 
-## Project Architecture
+## Deployment Architecture
 
 ```mermaid
 graph TD
-    User([User]) --> Question[User Question]
-    Question --> GK[🛡️ Gatekeeper Agent]
+    User([User]) --> WebApp[Frontend - Vercel]
+    WebApp -->|API Request| Backend[Backend - Railway]
     
-    subgraph "Processing Layer"
-        GK -- "✅ Relevant" --> LIB[📚 Librarian Agent]
-        GK -- "✅ Relevant" --> RES[🔍 Researcher Agent]
-        GK -- "🚫 Off-topic" --> Reject[Final Answer: Blocked]
+    subgraph agents ["Agent Orchestration (Railway)"]
+        Backend --> GK[Gatekeeper Agent]
+        GK -- "Relevant" --> LIB[Librarian Agent]
+        GK -- "Relevant" --> RES[Researcher Agent]
+        
+        LIB --> CONS[Constructor Agent]
+        RES --> CONS[Constructor Agent]
     end
 
-    subgraph "Knowledge Sources"
-        LIB --> DB[(Local PDFs - Qdrant In-Memory)]
-        RES --> Web[World Wide Web - Tavily]
+    subgraph knowledge ["Knowledge Layer"]
+        LIB --> Supabase[(Vector Store - Supabase)]
+        RES --> Tavily[Web Search - Tavily]
     end
 
-    DB --> LIB
-    Web --> RES
-
-    LIB --> CONS[🏗️ Constructor Agent]
-    RES --> CONS[🏗️ Constructor Agent]
-
-    CONS --> Final[Final Synthesized Response]
-    Final --> User
-    Reject --> User
+    CONS -->|JSON Response| WebApp
+    WebApp -->|Display| User
 ```
 
 ## Agents Overview
 
-- **🛡️ Gatekeeper:** Evaluates question relevance to UCAR and its 32 institutions. Prevents off-topic queries.
-- **📚 Librarian:** Performs semantic search across local PDF documents using Qdrant (In-Memory) and FastEmbed.
-- **🔍 Researcher:** Accesses real-time data from the web via Tavily API to complement local findings.
-- **🏗️ Constructor:** Synthesizes outputs from all agents into a professional, cited response. Includes an override mechanism for handling agent failures.
+- **Gatekeeper:** Evaluates question relevance to UCAR and its 32 institutions. Prevents off-topic queries.
+- **Librarian:** Performs semantic search across institutional documents stored in Supabase using local embeddings.
+- **Researcher:** Accesses real-time data from the web via Tavily API to complement archived documents.
+- **Constructor:** Synthesizes outputs from all agents into a professional response with citations and error handling.
 
 ## Tech Stack
 
+- **Frontend:** React (Vercel)
+- **Backend:** Flask / Python (Railway)
 - **Large Language Model:** Groq (Llama 3.1)
-- **Vector Database:** Qdrant (In-Memory)
+- **Vector Database:** Supabase (pgvector)
 - **Search API:** Tavily
 - **Embeddings:** FastEmbed
-- **PDF Processing:** PyMuPDF (fitz)
-- **Environment:** Python / dotenv
+- **Data Source:** PDF / Supabase Cloud
