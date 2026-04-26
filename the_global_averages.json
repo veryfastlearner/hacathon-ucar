@@ -1,0 +1,17 @@
+{
+  "total_universities": 3118,
+  "valid_counts": {
+    "teaching": 2191,
+    "research_environment": 2191,
+    "research_quality": 2191,
+    "industry": 2191,
+    "international_outlook": 2191
+  },
+  "global_averages": {
+    "teaching": 28.94,
+    "research_environment": 22.8,
+    "research_quality": 52.18,
+    "industry": 48.09,
+    "international_outlook": 49.51
+  }
+}

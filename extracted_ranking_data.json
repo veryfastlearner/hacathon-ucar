@@ -1,0 +1,213 @@
+{
+  "university": "University of Carthage",
+  "country": "Tunisia",
+  "scraped_at": "2026-04-25",
+  "rankings": {
+    "world": {
+      "rank": "1501+",
+      "scores": {
+        "teaching": 24.8,
+        "research_environment": 10.2,
+        "research_quality": 32.2,
+        "industry": 34.7,
+        "international_outlook": 43.9
+      },
+      "trend": [
+        {
+          "year": 2020,
+          "teaching_score": 19.6
+        },
+        {
+          "year": 2021,
+          "teaching_score": 19.2
+        },
+        {
+          "year": 2022,
+          "teaching_score": 19.8
+        },
+        {
+          "year": 2023,
+          "teaching_score": 19
+        },
+        {
+          "year": 2024,
+          "teaching_score": 23.8
+        },
+        {
+          "year": 2025,
+          "teaching_score": 25
+        },
+        {
+          "year": 2026,
+          "teaching_score": 24.8
+        }
+      ]
+    },
+    "business_economics": {
+      "rank": "801-1000",
+      "scores": {
+        "teaching": 16.8,
+        "research_environment": 8.8,
+        "research_quality": 53.7,
+        "industry": 22.2,
+        "international_outlook": 41.4
+      },
+      "trend": [
+        {
+          "year": 2020,
+          "teaching_score": 13.8
+        },
+        {
+          "year": 2021,
+          "teaching_score": 17.9
+        },
+        {
+          "year": 2022,
+          "teaching_score": 16.7
+        },
+        {
+          "year": 2023,
+          "teaching_score": 13.9
+        },
+        {
+          "year": 2024,
+          "teaching_score": 14.8
+        },
+        {
+          "year": 2025,
+          "teaching_score": 16.5
+        },
+        {
+          "year": 2026,
+          "teaching_score": 16.8
+        }
+      ]
+    },
+    "computer_science": {
+      "rank": "801-1000",
+      "scores": {
+        "teaching": 20.1,
+        "research_environment": 9.7,
+        "research_quality": 42.1,
+        "industry": 36.9,
+        "international_outlook": 39.7
+      },
+      "trend": [
+        {
+          "year": 2020,
+          "teaching_score": 14.1
+        },
+        {
+          "year": 2021,
+          "teaching_score": 8.5
+        },
+        {
+          "year": 2022,
+          "teaching_score": 16.6
+        },
+        {
+          "year": 2023,
+          "teaching_score": 15.6
+        },
+        {
+          "year": 2024,
+          "teaching_score": 16.6
+        },
+        {
+          "year": 2025,
+          "teaching_score": 19.2
+        },
+        {
+          "year": 2026,
+          "teaching_score": 20.1
+        }
+      ]
+    },
+    "engineering": {
+      "rank": "1001-1250",
+      "scores": {
+        "teaching": 18.5,
+        "research_environment": 8.9,
+        "research_quality": 34.2,
+        "industry": 32.3,
+        "international_outlook": 42.7
+      },
+      "trend": [
+        {
+          "year": 2020,
+          "teaching_score": 17.7
+        },
+        {
+          "year": 2021,
+          "teaching_score": 17.2
+        },
+        {
+          "year": 2022,
+          "teaching_score": 13.4
+        },
+        {
+          "year": 2023,
+          "teaching_score": 15
+        },
+        {
+          "year": 2024,
+          "teaching_score": 18.7
+        },
+        {
+          "year": 2025,
+          "teaching_score": 18.8
+        },
+        {
+          "year": 2026,
+          "teaching_score": 18.5
+        }
+      ]
+    },
+    "life_sciences": {
+      "rank": "801-1000",
+      "scores": {
+        "teaching": 22.7,
+        "research_environment": 9.8,
+        "research_quality": 36.9,
+        "industry": 27.4,
+        "international_outlook": 45.5
+      },
+      "trend": [
+        {
+          "year": 2020,
+          "teaching_score": 16.2
+        },
+        {
+          "year": 2021,
+          "teaching_score": 16
+        },
+        {
+          "year": 2022,
+          "teaching_score": 13.9
+        },
+        {
+          "year": 2023,
+          "teaching_score": 16.8
+        },
+        {
+          "year": 2024,
+          "teaching_score": 20.1
+        },
+        {
+          "year": 2025,
+          "teaching_score": 21.9
+        },
+        {
+          "year": 2026,
+          "teaching_score": 22.7
+        }
+      ]
+    }
+  },
+  "ai_insights": {
+    "strongest_category": "Business and Economics",
+    "weakest_score": "research_environment in business_economics",
+    "fastest_improving": "Life Sciences",
+    "recommended_priority": "Renforcer les initiatives de research_environment in business_economics pour améliorer le classement global."
+  }
+}

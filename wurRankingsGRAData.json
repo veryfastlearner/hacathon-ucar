@@ -1,0 +1,3043 @@
+[
+  {
+    "__typename": "ReleasesListItem",
+    "id": "the:data:wur:2020",
+    "year": 2020,
+    "name": "World University Rankings 2020",
+    "institutionData": {
+      "__typename": "InstitutionData",
+      "institution": {
+        "__typename": "Institution",
+        "name": "University of Carthage"
+      }
+    },
+    "institutionsData": {
+      "__typename": "InstitutionsData",
+      "data": [
+        {
+          "__typename": "DataListItem",
+          "femaleStudentPercentage": 67.01,
+          "internationalStudentPercentage": 0.006763,
+          "studentsPerStaff": 10.1,
+          "totalStudents": 32088
+        }
+      ]
+    },
+    "level1s": [
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Business and Economics",
+        "key": "businessAndEconomics",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 24.6,
+            "lower": 9.8
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 501,
+            "displayRank": "501+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 5.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 30.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 31.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Computer Science",
+        "key": "computerScience",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 23.4,
+            "lower": 11.2
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 601,
+            "displayRank": "601+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 14.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 12.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 27.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 38
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.6
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Life Sciences",
+        "key": "lifeSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 23.2,
+            "lower": 7.2
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 601,
+            "displayRank": "601+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 6.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 20.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 29.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.8
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Overall",
+        "key": "overall",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 22.1,
+            "lower": 10.7
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1001,
+            "displayRank": "1001+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.3
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Engineering",
+        "key": "engineeringTechnology",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 26.8,
+            "lower": 18.5
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 17.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 6.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 28.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 31.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Physical Sciences",
+        "key": "physicalSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 20.2,
+            "lower": 8.1
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 801,
+            "displayRank": "801+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 14.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 5.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 31
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "__typename": "ReleasesListItem",
+    "id": "the:data:wur:2021",
+    "year": 2021,
+    "name": "World University Rankings 2021",
+    "institutionData": {
+      "__typename": "InstitutionData",
+      "institution": {
+        "__typename": "Institution",
+        "name": "University of Carthage"
+      }
+    },
+    "institutionsData": {
+      "__typename": "InstitutionsData",
+      "data": [
+        {
+          "__typename": "DataListItem",
+          "femaleStudentPercentage": 66.4,
+          "internationalStudentPercentage": 0.006541,
+          "studentsPerStaff": 9.6,
+          "totalStudents": 31188
+        }
+      ]
+    },
+    "level1s": [
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Business and Economics",
+        "key": "businessAndEconomics",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 27.1,
+            "lower": 22.5
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 600,
+            "lower": 501,
+            "displayRank": "501\u2013600"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 17.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 6.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 35.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 38
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Computer Science",
+        "key": "computerScience",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25.6,
+            "lower": 15.1
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 10.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 29.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 36.4
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Life Sciences",
+        "key": "lifeSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 26.3,
+            "lower": 16.3
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 20.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 33.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.8
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Overall",
+        "key": "overall",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25,
+            "lower": 10.3
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1001,
+            "displayRank": "1001+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 20
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 33.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.1
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Physical Sciences",
+        "key": "physicalSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 23,
+            "lower": 16.2
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 14.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 21.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Engineering",
+        "key": "engineeringTechnology",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 28.3,
+            "lower": 20.4
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 17.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 6.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 32
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 31
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.8
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "__typename": "ReleasesListItem",
+    "id": "the:data:wur:2022",
+    "year": 2022,
+    "name": "World University Rankings 2022",
+    "institutionData": {
+      "__typename": "InstitutionData",
+      "institution": {
+        "__typename": "Institution",
+        "name": "University of Carthage"
+      }
+    },
+    "institutionsData": {
+      "__typename": "InstitutionsData",
+      "data": [
+        {
+          "__typename": "DataListItem",
+          "femaleStudentPercentage": 66.18,
+          "internationalStudentPercentage": 0.009212,
+          "studentsPerStaff": 9.4,
+          "totalStudents": 28985
+        }
+      ]
+    },
+    "level1s": [
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Computer Science",
+        "key": "computerScience",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 26.4,
+            "lower": 19
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 27.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 36
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Life Sciences",
+        "key": "lifeSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 19.1,
+            "lower": 8.3
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 801,
+            "displayRank": "801+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 22.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 53.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 45.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Overall",
+        "key": "overall",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 22.3,
+            "lower": 10.6
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1201,
+            "displayRank": "1201+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 36.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Physical Sciences",
+        "key": "physicalSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 17.7,
+            "lower": 7.8
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1001,
+            "displayRank": "1001+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 20.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 40.4
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Social Sciences",
+        "key": "socialSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 32.1,
+            "lower": 28.2
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 500,
+            "lower": 401,
+            "displayRank": "401\u2013500"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 11.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 83.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 33.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.8
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Business and Economics",
+        "key": "businessAndEconomics",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 28.4,
+            "lower": 25.1
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 600,
+            "lower": 501,
+            "displayRank": "501\u2013600"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 54.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 33.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 37.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Engineering",
+        "key": "engineeringTechnology",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 23.6,
+            "lower": 17.1
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 6.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 24.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 32.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.9
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "__typename": "ReleasesListItem",
+    "id": "the:data:wur:2023",
+    "year": 2023,
+    "name": "World University Rankings 2023",
+    "institutionData": {
+      "__typename": "InstitutionData",
+      "institution": {
+        "__typename": "Institution",
+        "name": "University of Carthage"
+      }
+    },
+    "institutionsData": {
+      "__typename": "InstitutionsData",
+      "data": [
+        {
+          "__typename": "DataListItem",
+          "femaleStudentPercentage": 66.77,
+          "internationalStudentPercentage": 0.00991,
+          "studentsPerStaff": 9.9,
+          "totalStudents": 28962
+        }
+      ]
+    },
+    "level1s": [
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Business and Economics",
+        "key": "businessAndEconomics",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25.9,
+            "lower": 17.8
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 49.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 36.7
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Computer Science",
+        "key": "computerScience",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 22,
+            "lower": 11
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 801,
+            "displayRank": "801+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 15.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 11.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 28.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 37.3
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Life Sciences",
+        "key": "lifeSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 21.4,
+            "lower": 11.5
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 23.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 42.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 46.5
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Overall",
+        "key": "overall",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 24.3,
+            "lower": 18.4
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1500,
+            "lower": 1201,
+            "displayRank": "1201\u20131500"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 38.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.2
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Physical Sciences",
+        "key": "physicalSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 20.4,
+            "lower": 7.7
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1001,
+            "displayRank": "1001+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 6.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 22.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 40.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Engineering",
+        "key": "engineeringTechnology",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 20.2,
+            "lower": 9.3
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1001,
+            "displayRank": "1001+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 15
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Citations",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 25.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 32.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.9
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "__typename": "ReleasesListItem",
+    "id": "the:data:wur:2024",
+    "year": 2024,
+    "name": "World University Rankings 2024",
+    "institutionData": {
+      "__typename": "InstitutionData",
+      "institution": {
+        "__typename": "Institution",
+        "name": "University of Carthage"
+      }
+    },
+    "institutionsData": {
+      "__typename": "InstitutionsData",
+      "data": [
+        {
+          "__typename": "DataListItem",
+          "femaleStudentPercentage": 62.79,
+          "internationalStudentPercentage": 0.007309,
+          "studentsPerStaff": 10.1,
+          "totalStudents": 29691
+        }
+      ]
+    },
+    "level1s": [
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Business and Economics",
+        "key": "businessAndEconomics",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 31.2,
+            "lower": 23
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 14.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 47.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 17.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 42.2
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Computer Science",
+        "key": "computerScience",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25.9,
+            "lower": 16.9
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 24.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41.3
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Life Sciences",
+        "key": "lifeSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25.8,
+            "lower": 17.4
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 20.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 35.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 23.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 47.3
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Overall",
+        "key": "overall",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 28.2,
+            "lower": 22.8
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1500,
+            "lower": 1201,
+            "displayRank": "1201\u20131500"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 23.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 31.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 20.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.4
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Physical Sciences",
+        "key": "physicalSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 24.4,
+            "lower": 9.1
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1001,
+            "displayRank": "1001+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 6.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 31.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 21.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Social Sciences",
+        "key": "socialSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 29.7,
+            "lower": 23.4
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 800,
+            "lower": 601,
+            "displayRank": "601\u2013800"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 10.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 58.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 17
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 48.6
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Engineering",
+        "key": "engineeringTechnology",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 28.4,
+            "lower": 23.6
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 18.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 40.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 24
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "__typename": "ReleasesListItem",
+    "id": "the:data:wur:2025",
+    "year": 2025,
+    "name": "World University Rankings 2025",
+    "institutionData": {
+      "__typename": "InstitutionData",
+      "institution": {
+        "__typename": "Institution",
+        "name": "University of Carthage"
+      }
+    },
+    "institutionsData": {
+      "__typename": "InstitutionsData",
+      "data": [
+        {
+          "__typename": "DataListItem",
+          "femaleStudentPercentage": 63.06,
+          "internationalStudentPercentage": 0.007137,
+          "studentsPerStaff": 9.9,
+          "totalStudents": 31385
+        }
+      ]
+    },
+    "level1s": [
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Business and Economics",
+        "key": "businessAndEconomics",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 26.5,
+            "lower": 14.2
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 801,
+            "displayRank": "801+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 48.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 24.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41.3
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Computer Science",
+        "key": "computerScience",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 28.6,
+            "lower": 21.5
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 19.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 35.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 39.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Engineering",
+        "key": "engineeringTechnology",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25.5,
+            "lower": 19.5
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1250,
+            "lower": 1001,
+            "displayRank": "1001\u20131250"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 18.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 38.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 30.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.5
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Life Sciences",
+        "key": "lifeSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 27.5,
+            "lower": 20.8
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 21.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 33.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 25.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 46.2
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Overall",
+        "key": "overall",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25.1,
+            "lower": 10.5
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1501,
+            "displayRank": "1501+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 25
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 32.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 32.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 44.1
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Physical Sciences",
+        "key": "physicalSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 26,
+            "lower": 9.3
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1001,
+            "displayRank": "1001+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 25.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41.2
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Social Sciences",
+        "key": "socialSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 25,
+            "lower": 19.6
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 10.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 48.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 65.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 48.5
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "__typename": "ReleasesListItem",
+    "id": "the:data:wur:2026",
+    "year": 2026,
+    "name": "World University Rankings 2026",
+    "institutionData": {
+      "__typename": "InstitutionData",
+      "institution": {
+        "__typename": "Institution",
+        "name": "University of Carthage"
+      }
+    },
+    "institutionsData": {
+      "__typename": "InstitutionsData",
+      "data": [
+        {
+          "__typename": "DataListItem",
+          "femaleStudentPercentage": 64.12,
+          "internationalStudentPercentage": 0.005585,
+          "studentsPerStaff": 10.6,
+          "totalStudents": 32944
+        }
+      ]
+    },
+    "level1s": [
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Business and Economics",
+        "key": "businessAndEconomics",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 28.7,
+            "lower": 21.2
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 16.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 53.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 22.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 41.4
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Computer Science",
+        "key": "computerScience",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 29.9,
+            "lower": 23.4
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 20.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 42.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 36.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 39.7
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Engineering",
+        "key": "engineeringTechnology",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 27,
+            "lower": 21.4
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1250,
+            "lower": 1001,
+            "displayRank": "1001\u20131250"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 18.5
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 8.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 32.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 42.7
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Life Sciences",
+        "key": "lifeSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 29.1,
+            "lower": 23.4
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 22.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 36.9
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 27.4
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 45.5
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Overall",
+        "key": "overall",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 27.2,
+            "lower": 10.3
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": -1,
+            "lower": 1501,
+            "displayRank": "1501+"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 24.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 10.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 32.2
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 43.9
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Physical Sciences",
+        "key": "physicalSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 27.4,
+            "lower": 20.9
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1250,
+            "lower": 1001,
+            "displayRank": "1001\u20131250"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 13.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 7.6
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 34.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 27.7
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 40.5
+            }
+          }
+        ]
+      },
+      {
+        "__typename": "ReleasesLevel1Data",
+        "name": "Social Sciences",
+        "key": "socialSciences",
+        "result": {
+          "__typename": "ReleasesLevel1Result",
+          "jointRanked": false,
+          "score": {
+            "__typename": "Score",
+            "higher": 26.5,
+            "lower": 21.6
+          },
+          "rank": {
+            "__typename": "Level1Banding",
+            "higher": 1000,
+            "lower": 801,
+            "displayRank": "801\u20131000"
+          }
+        },
+        "level2s": [
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Teaching",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 9.1
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Environment",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 11.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Research Quality",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 51.8
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "Industry",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 65.3
+            }
+          },
+          {
+            "__typename": "ReleasesLevel2Data",
+            "name": "International Outlook",
+            "result": {
+              "__typename": "ReleasesLevel2Result",
+              "score": 49.2
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

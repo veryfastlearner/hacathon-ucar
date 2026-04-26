@@ -1,0 +1,201 @@
+{
+  "institutions": [
+    {
+      "id": "INST-001",
+      "name": "École Nationale des Sciences de l'Informatique",
+      "code": "ENSI",
+      "type": "Grande École",
+      "city": "Manouba",
+      "employability": {
+        "employability_rate": 0.92,
+        "avg_months_to_employment": 3.2,
+        "recruitment_needs": ["AI Specialists", "Cybersecurity Experts"]
+      },
+      "accreditation": {
+        "status": "accredited",
+        "total_programs": 5,
+        "programs_at_risk": 0,
+        "details": "CTI Accredited until 2028."
+      },
+      "research": {
+        "score": 88,
+        "publications": 62,
+        "active_projects": 14
+      },
+      "academic": {
+        "success_rate": 0.84,
+        "repetition_rate": 0.08
+      },
+      "competencies": {
+        "professor_competencies": ["Data Science", "Software Engineering", "Mathematics"],
+        "strong_domains": ["Computer Science", "Engineering"],
+        "weak_domains": ["Business Administration"]
+      }
+    },
+    {
+      "id": "INST-002",
+      "name": "Faculté des Sciences de Bizerte",
+      "code": "FSB",
+      "type": "Faculté",
+      "city": "Bizerte",
+      "employability": {
+        "employability_rate": 0.68,
+        "avg_months_to_employment": 7.4,
+        "recruitment_needs": ["Industry Partnerships"]
+      },
+      "accreditation": {
+        "status": "at_risk",
+        "total_programs": 12,
+        "programs_at_risk": 3,
+        "details": "Physics and Chemistry programs under warning."
+      },
+      "research": {
+        "score": 82,
+        "publications": 78,
+        "active_projects": 18
+      },
+      "academic": {
+        "success_rate": 0.71,
+        "repetition_rate": 0.16
+      },
+      "competencies": {
+        "professor_competencies": ["Physics", "Chemistry", "Biology", "Mathematics"],
+        "strong_domains": ["Fundamental Sciences"],
+        "weak_domains": ["Soft Skills", "Applied Technologies"]
+      }
+    },
+    {
+      "id": "INST-003",
+      "name": "Faculté des Lettres, des Arts et des Humanités",
+      "code": "FLAH",
+      "type": "Faculté",
+      "city": "Manouba",
+      "employability": {
+        "employability_rate": 0.55,
+        "avg_months_to_employment": 11.2,
+        "recruitment_needs": ["Digital Humanities", "Public Relations"]
+      },
+      "accreditation": {
+        "status": "not_accredited",
+        "total_programs": 8,
+        "programs_at_risk": 5,
+        "details": "Awaiting national agency review."
+      },
+      "research": {
+        "score": 65,
+        "publications": 28,
+        "active_projects": 5
+      },
+      "academic": {
+        "success_rate": 0.62,
+        "repetition_rate": 0.20
+      },
+      "competencies": {
+        "professor_competencies": ["Literature", "History", "Arts", "Linguistics"],
+        "strong_domains": ["Humanities"],
+        "weak_domains": ["Digital Tools", "Employability Programs"]
+      }
+    },
+    {
+      "id": "INST-004",
+      "name": "École Supérieure de Commerce de Tunis",
+      "code": "ESCT",
+      "type": "Grande École",
+      "city": "Tunis",
+      "employability": {
+        "employability_rate": 0.88,
+        "avg_months_to_employment": 3.8,
+        "recruitment_needs": ["Digital Marketing", "FinTech"]
+      },
+      "accreditation": {
+        "status": "accredited",
+        "total_programs": 6,
+        "programs_at_risk": 0,
+        "details": "AACSB candidate."
+      },
+      "research": {
+        "score": 75,
+        "publications": 48,
+        "active_projects": 11
+      },
+      "academic": {
+        "success_rate": 0.80,
+        "repetition_rate": 0.10
+      },
+      "competencies": {
+        "professor_competencies": ["Finance", "Marketing", "Management"],
+        "strong_domains": ["Business Administration"],
+        "weak_domains": ["IT Integration"]
+      }
+    },
+    {
+      "id": "INST-005",
+      "name": "Faculté de Médecine de Bizerte",
+      "code": "FMB",
+      "type": "Faculté",
+      "city": "Bizerte",
+      "employability": {
+        "employability_rate": 0.98,
+        "avg_months_to_employment": 1.5,
+        "recruitment_needs": ["Clinical Supervisors"]
+      },
+      "accreditation": {
+        "status": "accredited",
+        "total_programs": 1,
+        "programs_at_risk": 0,
+        "details": "WFME compliant."
+      },
+      "research": {
+        "score": 92,
+        "publications": 95,
+        "active_projects": 22
+      },
+      "academic": {
+        "success_rate": 0.85,
+        "repetition_rate": 0.06
+      },
+      "competencies": {
+        "professor_competencies": ["Clinical Medicine", "Public Health", "Genetics"],
+        "strong_domains": ["Medical Sciences"],
+        "weak_domains": ["Health Economics"]
+      }
+    },
+    {
+      "id": "INST-006",
+      "name": "Institut Supérieur de Gestion de Tunis",
+      "code": "ISG",
+      "type": "Institut",
+      "city": "Tunis",
+      "employability": {
+        "employability_rate": 0.72,
+        "avg_months_to_employment": 6.5,
+        "recruitment_needs": ["Data Analysts"]
+      },
+      "accreditation": {
+        "status": "at_risk",
+        "total_programs": 9,
+        "programs_at_risk": 2,
+        "details": "Master programs need syllabus updates."
+      },
+      "research": {
+        "score": 72,
+        "publications": 38,
+        "active_projects": 9
+      },
+      "academic": {
+        "success_rate": 0.70,
+        "repetition_rate": 0.15
+      },
+      "competencies": {
+        "professor_competencies": ["Accounting", "Economics", "Management Info Systems"],
+        "strong_domains": ["Accounting", "Economics"],
+        "weak_domains": ["Advanced Analytics"]
+      }
+    }
+  ],
+  "global_metrics": {
+    "overall_health_score": 78,
+    "total_institutions": 6,
+    "last_updated": "2025-04-25"
+  }
+}
