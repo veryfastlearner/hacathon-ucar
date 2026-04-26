@@ -5,6 +5,16 @@ in each branch we will find one service, but for full app its on ocr_new branch.
 
 in each branch you find a readme file explaining the architecture.
 
+main: our chatbot with rag(fastembed docs and upsert to supabase
+
+
+ocr: self explained = ocr with plots 
+
+
+ocr_new: everything combined from main and ocr along with smart dashboard analytics with kpi's
+
+
+scrape: the way we scraped data ,and built our knowledge graph 
 
 
 # UCAR Smart Query Engine
