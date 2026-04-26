@@ -1,3 +1,12 @@
+this is made by following a microservice architecture
+
+
+in each branch we will find one service, but for full app its on ocr_new branch. you will notice that we already deployed our chatbot (we named query engine) thus easy integration via iframe in my teammates work.
+
+in each branch you find a readme file explaining the architecture.
+
+
+
 # UCAR Smart Query Engine
 
 A multi-agent RAG (Retrieval-Augmented Generation) system designed for University Carthage (UCAR). It helps users navigate institutional documents and access key performance indicators (KPIs) through a collaborative agent architecture.
