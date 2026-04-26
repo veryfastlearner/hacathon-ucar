@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UCAR Insight Engine</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+body{background:#0b1120;color:#e2e8f0;font-family:'Segoe UI',sans-serif;}
+.glass{background:rgba(30,41,59,0.7);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.08);border-radius:1rem;}
+.card-hover:hover{transform:translateY(-2px);box-shadow:0 10px 25px rgba(0,0,0,0.4);}
+.transition-all{transition:all 0.3s ease;}
+::-webkit-scrollbar{width:8px;}
+::-webkit-scrollbar-track{background:#0b1120;}
+::-webkit-scrollbar-thumb{background:#334155;border-radius:4px;}
+</style>
+</head>
+<body class="min-h-screen">
+<header class="py-6 px-8 border-b border-slate-800">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <div>
+      <h1 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-sky-400 to-emerald-400">UCAR Insight Engine</h1>
+      <p class="text-slate-400 text-sm mt-1">Fact Extraction · Anomaly Detection · Causal Graph · Predictive Analytics</p>
+    </div>
+    <div class="text-xs text-slate-500 text-right space-y-0.5">
+      <div>{{ nodes }} fact nodes</div>
+      <div>{{ edges }} relationships</div>
+      <div>{{ anomalies }} anomalies flagged</div>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto p-6 space-y-8">
+  <!-- AI Synthesis Cards -->
+  <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <div class="glass p-5 card-hover transition-all border-l-4 border-rose-500">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></div>
+        <h3 class="text-lg font-semibold text-rose-300">AI Recommendations (Gemini)</h3>
+      </div>
+      <p class="text-sm text-slate-300 whitespace-pre-wrap leading-relaxed">{{ recs }}</p>
+    </div>
+    <div class="glass p-5 card-hover transition-all border-l-4 border-sky-500">
+      <div class="flex items-center gap-2 mb-2">
+        <div class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></div>
+        <h3 class="text-lg font-semibold text-sky-300">Causal Chain Analysis</h3>
+      </div>
+      <p class="text-sm text-slate-300 whitespace-pre-wrap leading-relaxed">{{ causal }}</p>
+    </div>
+  </section>
+
+  <!-- Fact Graph -->
+  <section class="glass p-4 card-hover transition-all">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-xl font-semibold text-sky-300">Fact-Based Knowledge Graph</h2>
+      <span class="text-xs text-slate-500">Nodes = extracted facts · Edges = inferred relationships</span>
+    </div>
+    <div id="graph-net" style="width:100%;height:700px;"></div>
+  </section>
+
+  <!-- Anomaly Dashboard -->
+  <section class="glass p-4 card-hover transition-all">
+    <div class="flex items-center justify-between mb-3">
+      <h2 class="text-xl font-semibold text-rose-300">Anomaly Detection & Insight Engine</h2>
+      <span class="text-xs text-slate-500">Statistical outliers · Z-score analysis · Domain rules</span>
+    </div>
+    <div id="graph-anom" style="width:100%;height:900px;"></div>
+  </section>
+
+  <!-- Category Treemap -->
+  <section class="glass p-4 card-hover transition-all">
+    <h2 class="text-xl font-semibold text-emerald-300 mb-3">Fact Category Distribution</h2>
+    <div id="graph-tree" style="width:100%;height:400px;"></div>
+  </section>
+</main>
+
+<footer class="py-6 text-center text-xs text-slate-600 border-t border-slate-800 mt-8">
+  Fact extraction via regex + NLP · Anomaly detection via Z-score + domain heuristics · Gemini synthesis layer
+</footer>
+
+<script>
+  var netData = {{ net_json | safe }};
+  var anomData = {{ anom_json | safe }};
+  var treeData = {{ tree_json | safe }};
+  Plotly.newPlot('graph-net', netData.data, netData.layout, {responsive:true});
+  Plotly.newPlot('graph-anom', anomData.data, anomData.layout, {responsive:true});
+  Plotly.newPlot('graph-tree', treeData.data, treeData.layout, {responsive:true});
+</script>
+</body>
+</html>

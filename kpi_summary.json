@@ -1,0 +1,198 @@
+{
+  "student_growth": {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "total_students": [
+      32088,
+      31188,
+      28985,
+      28962,
+      29691,
+      31385,
+      32944
+    ],
+    "female_pct": [
+      67.01,
+      66.4,
+      66.18,
+      66.77,
+      62.79,
+      63.06,
+      64.12
+    ],
+    "intl_pct": [
+      0.6763,
+      0.6541,
+      0.9212,
+      0.991,
+      0.7309,
+      0.7137,
+      0.5585
+    ],
+    "staff_ratio": [
+      10.1,
+      9.6,
+      9.4,
+      9.9,
+      10.1,
+      9.9,
+      10.6
+    ]
+  },
+  "latest_students": 32944,
+  "latest_female_pct": 64.12,
+  "latest_intl_pct": 0.5585,
+  "latest_staff_ratio": 10.6,
+  "pillar_latest_year": 2026,
+  "overall_pillars": {
+    "Teaching": 24.8,
+    "Research Environment": 10.2,
+    "Research Quality": 32.2,
+    "Industry": 34.7,
+    "International Outlook": 43.9
+  },
+  "pillar_by_subject": {
+    "Business and Economics": {
+      "Teaching": 16.8,
+      "Research Environment": 8.8,
+      "Research Quality": 53.7,
+      "Industry": 22.2,
+      "International Outlook": 41.4
+    },
+    "Computer Science": {
+      "Teaching": 20.1,
+      "Research Environment": 9.7,
+      "Research Quality": 42.1,
+      "Industry": 36.9,
+      "International Outlook": 39.7
+    },
+    "Engineering": {
+      "Teaching": 18.5,
+      "Research Environment": 8.9,
+      "Research Quality": 34.2,
+      "Industry": 32.3,
+      "International Outlook": 42.7
+    },
+    "Life Sciences": {
+      "Teaching": 22.7,
+      "Research Environment": 9.8,
+      "Research Quality": 36.9,
+      "Industry": 27.4,
+      "International Outlook": 45.5
+    },
+    "Overall": {
+      "Teaching": 24.8,
+      "Research Environment": 10.2,
+      "Research Quality": 32.2,
+      "Industry": 34.7,
+      "International Outlook": 43.9
+    },
+    "Physical Sciences": {
+      "Teaching": 13.8,
+      "Research Environment": 7.6,
+      "Research Quality": 34.1,
+      "Industry": 27.7,
+      "International Outlook": 40.5
+    },
+    "Social Sciences": {
+      "Teaching": 9.1,
+      "Research Environment": 11.8,
+      "Research Quality": 51.8,
+      "Industry": 65.3,
+      "International Outlook": 49.2
+    }
+  },
+  "subject_ranks": {
+    "Computer Science": "801–1000",
+    "Business and Economics": "801–1000",
+    "Life Sciences": "801–1000",
+    "Physical Sciences": "1001–1250",
+    "Engineering": "1001–1250",
+    "Social Sciences": "801–1000",
+    "Overall": "1501+"
+  },
+  "impact_latest_year": 2023,
+  "impact_scores": {
+    "No Poverty": [
+      23.3,
+      38.1
+    ],
+    "Zero Hunger": [
+      15.3,
+      38.3
+    ],
+    "Good Health and Wellbeing": [
+      1.0,
+      32.0
+    ],
+    "Quality Education": [
+      2.8,
+      35.7
+    ],
+    "Gender Equality": [
+      43.7,
+      51.5
+    ],
+    "Clean Water and Sanitation": [
+      24.8,
+      42.6
+    ],
+    "Affordable and Clean Energy": [
+      11.1,
+      38.6
+    ],
+    "Decent Work and Economic Growth": [
+      1.4,
+      35.6
+    ],
+    "Industry, Innovation and Infrastructure": [
+      33.9,
+      50.8
+    ],
+    "Reduced Inequalities": [
+      25.6,
+      39.9
+    ],
+    "Sustainable Cities and Communities": [
+      20.9,
+      38.4
+    ],
+    "Responsible Consumption and Production": [
+      2.8,
+      25.9
+    ],
+    "Climate Action": [
+      1.8,
+      25.6
+    ],
+    "Life below Water": [
+      28.2,
+      42.9
+    ],
+    "Life on Land": [
+      2.1,
+      38.0
+    ],
+    "Peace, Justice and Strong Institutions": [
+      29.1,
+      45.0
+    ],
+    "Partnership for the Goals": [
+      45.3,
+      53.3
+    ],
+    "Overall": [
+      7.9,
+      53.8
+    ]
+  },
+  "research_lab_count": 663,
+  "subjects_taught_count": 28
+}

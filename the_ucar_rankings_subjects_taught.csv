@@ -1,0 +1,29 @@
+﻿subject_name,label,key,wur31_code,extracted_date
+Arts & Humanities: Archaeology,Archaeology,ARTS_HUMANITIES_ARCHAE,WUR31.0003,2026-04-25 23:27
+Arts & Humanities: Architecture,Architecture,ARTS_HUMANITIES_ARCHIT,WUR31.0004,2026-04-25 23:27
+"Arts & Humanities: Art, Performing Arts & Design","Art, Performing Art and Design",ARTS_HUMANITIES_ART,WUR31.0005,2026-04-25 23:27
+"Arts & Humanities: History, Philosophy & Theology","History, Philosophy and Theology",ARTS_HUMANITIES_HIST,WUR31.0019,2026-04-25 23:27
+"Arts & Humanities: Languages, Literature & Linguistics","Languages, Literature and Linguistics",ARTS_HUMANITIES_LANG,WUR31.0020,2026-04-25 23:27
+Business and Economics: Accounting & Finance,Accounting and Finance,BUS_ACC_FIN,WUR31.0001,2026-04-25 23:27
+Business and Economics: Business & Management,Business and Management,BUS_BUS_MGMT,WUR31.0007,2026-04-25 23:27
+Business and Economics: Economics & Econometrics,Economics and Econometrics,BUS_ECON,WUR31.0013,2026-04-25 23:27
+Computer Science: Computer Science,Computer Science,COMP_COMPSCI,WUR31.0012,2026-04-25 23:27
+Education: Education,Education,EDU_EDU,WUR31.0014,2026-04-25 23:27
+Engineering: Chemical Engineering,Chemical Engineering,ENG_CHEM,WUR31.0008,2026-04-25 23:27
+Engineering: Civil Engineering,Civil Engineering,ENG_CIVIL,WUR31.0010,2026-04-25 23:27
+Engineering: Electrical and Electronic Engineering,Electrical and Electronic Engineering,ENG_ELEC,WUR31.0015,2026-04-25 23:27
+Engineering: General Engineering,General Engineering,ENG_GEN,WUR31.0016,2026-04-25 23:27
+Engineering: Mechanical and Aerospace Engineering,Mechanical and Aerospace Engineering,ENG_MECH_AERO,WUR31.0023,2026-04-25 23:27
+Law: Law,Law,LAW_LAW,WUR31.0021,2026-04-25 23:27
+Life sciences: Agriculture & Forestry,Agriculture and Forestry,LIFE_AGRIC,WUR31.0002,2026-04-25 23:27
+Life sciences: Biological Sciences,Biological Sciences,LIFE_BIO,WUR31.0006,2026-04-25 23:27
+Life sciences: Veterinary Science,Veterinary Science,LIFE_VET,WUR31.0031,2026-04-25 23:27
+Physical sciences: Chemistry,Chemistry,PHYS_CHEM,WUR31.0009,2026-04-25 23:27
+"Physical sciences: Geology, Environmental, Earth & Marine Sciences","Geology, Environmental, Earth and Marine Sciences",PHYS_GEOL_ENV,WUR31.0018,2026-04-25 23:27
+Physical sciences: Mathematics & Statistics,Mathematics and Statistics,PHYS_MATHS,WUR31.0022,2026-04-25 23:27
+Physical sciences: Physics & Astronomy,Physics and Astronomy,PHYS_PHYS_AST,WUR31.0026,2026-04-25 23:27
+Psychology: Psychology,Psychology,PSYCH_PSYCH,WUR31.0028,2026-04-25 23:27
+Social sciences: Communication & Media Studies,Communication and Media Studies,SOC_COMM_MEDIA,WUR31.0011,2026-04-25 23:27
+Social sciences: Geography,Geography,SOC_GEOG,WUR31.0017,2026-04-25 23:27
+Social sciences: Politics & International Studies (incl Development Studies),Politics and International Studies,SOC_POL,WUR31.0027,2026-04-25 23:27
+Social sciences: Sociology,Sociology,SOC_SOC,WUR31.0029,2026-04-25 23:27

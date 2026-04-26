@@ -1,0 +1,47 @@
+﻿year,release_name,subject,subject_key,score_lower,score_higher,rank_display,rank_lower,rank_higher,extracted_date
+2020,World University Rankings 2020,Business and Economics,businessAndEconomics,9.8,24.6,501+,501,-1,2026-04-25 23:27
+2020,World University Rankings 2020,Computer Science,computerScience,11.2,23.4,601+,601,-1,2026-04-25 23:27
+2020,World University Rankings 2020,Life Sciences,lifeSciences,7.2,23.2,601+,601,-1,2026-04-25 23:27
+2020,World University Rankings 2020,Overall,overall,10.7,22.1,1001+,1001,-1,2026-04-25 23:27
+2020,World University Rankings 2020,Engineering,engineeringTechnology,18.5,26.8,601–800,601,800,2026-04-25 23:27
+2020,World University Rankings 2020,Physical Sciences,physicalSciences,8.1,20.2,801+,801,-1,2026-04-25 23:27
+2021,World University Rankings 2021,Business and Economics,businessAndEconomics,22.5,27.1,501–600,501,600,2026-04-25 23:27
+2021,World University Rankings 2021,Computer Science,computerScience,15.1,25.6,601–800,601,800,2026-04-25 23:27
+2021,World University Rankings 2021,Life Sciences,lifeSciences,16.3,26.3,601–800,601,800,2026-04-25 23:27
+2021,World University Rankings 2021,Overall,overall,10.3,25.0,1001+,1001,-1,2026-04-25 23:27
+2021,World University Rankings 2021,Physical Sciences,physicalSciences,16.2,23.0,801–1000,801,1000,2026-04-25 23:27
+2021,World University Rankings 2021,Engineering,engineeringTechnology,20.4,28.3,601–800,601,800,2026-04-25 23:27
+2022,World University Rankings 2022,Computer Science,computerScience,19.0,26.4,601–800,601,800,2026-04-25 23:27
+2022,World University Rankings 2022,Life Sciences,lifeSciences,8.3,19.1,801+,801,-1,2026-04-25 23:27
+2022,World University Rankings 2022,Overall,overall,10.6,22.3,1201+,1201,-1,2026-04-25 23:27
+2022,World University Rankings 2022,Physical Sciences,physicalSciences,7.8,17.7,1001+,1001,-1,2026-04-25 23:27
+2022,World University Rankings 2022,Social Sciences,socialSciences,28.2,32.1,401–500,401,500,2026-04-25 23:27
+2022,World University Rankings 2022,Business and Economics,businessAndEconomics,25.1,28.4,501–600,501,600,2026-04-25 23:27
+2022,World University Rankings 2022,Engineering,engineeringTechnology,17.1,23.6,801–1000,801,1000,2026-04-25 23:27
+2023,World University Rankings 2023,Business and Economics,businessAndEconomics,17.8,25.9,601–800,601,800,2026-04-25 23:27
+2023,World University Rankings 2023,Computer Science,computerScience,11.0,22.0,801+,801,-1,2026-04-25 23:27
+2023,World University Rankings 2023,Life Sciences,lifeSciences,11.5,21.4,801–1000,801,1000,2026-04-25 23:27
+2023,World University Rankings 2023,Overall,overall,18.4,24.3,1201–1500,1201,1500,2026-04-25 23:27
+2023,World University Rankings 2023,Physical Sciences,physicalSciences,7.7,20.4,1001+,1001,-1,2026-04-25 23:27
+2023,World University Rankings 2023,Engineering,engineeringTechnology,9.3,20.2,1001+,1001,-1,2026-04-25 23:27
+2024,World University Rankings 2024,Business and Economics,businessAndEconomics,23.0,31.2,601–800,601,800,2026-04-25 23:27
+2024,World University Rankings 2024,Computer Science,computerScience,16.9,25.9,801–1000,801,1000,2026-04-25 23:27
+2024,World University Rankings 2024,Life Sciences,lifeSciences,17.4,25.8,801–1000,801,1000,2026-04-25 23:27
+2024,World University Rankings 2024,Overall,overall,22.8,28.2,1201–1500,1201,1500,2026-04-25 23:27
+2024,World University Rankings 2024,Physical Sciences,physicalSciences,9.1,24.4,1001+,1001,-1,2026-04-25 23:27
+2024,World University Rankings 2024,Social Sciences,socialSciences,23.4,29.7,601–800,601,800,2026-04-25 23:27
+2024,World University Rankings 2024,Engineering,engineeringTechnology,23.6,28.4,801–1000,801,1000,2026-04-25 23:27
+2025,World University Rankings 2025,Business and Economics,businessAndEconomics,14.2,26.5,801+,801,-1,2026-04-25 23:27
+2025,World University Rankings 2025,Computer Science,computerScience,21.5,28.6,801–1000,801,1000,2026-04-25 23:27
+2025,World University Rankings 2025,Engineering,engineeringTechnology,19.5,25.5,1001–1250,1001,1250,2026-04-25 23:27
+2025,World University Rankings 2025,Life Sciences,lifeSciences,20.8,27.5,801–1000,801,1000,2026-04-25 23:27
+2025,World University Rankings 2025,Overall,overall,10.5,25.1,1501+,1501,-1,2026-04-25 23:27
+2025,World University Rankings 2025,Physical Sciences,physicalSciences,9.3,26.0,1001+,1001,-1,2026-04-25 23:27
+2025,World University Rankings 2025,Social Sciences,socialSciences,19.6,25.0,801–1000,801,1000,2026-04-25 23:27
+2026,World University Rankings 2026,Business and Economics,businessAndEconomics,21.2,28.7,801–1000,801,1000,2026-04-25 23:27
+2026,World University Rankings 2026,Computer Science,computerScience,23.4,29.9,801–1000,801,1000,2026-04-25 23:27
+2026,World University Rankings 2026,Engineering,engineeringTechnology,21.4,27.0,1001–1250,1001,1250,2026-04-25 23:27
+2026,World University Rankings 2026,Life Sciences,lifeSciences,23.4,29.1,801–1000,801,1000,2026-04-25 23:27
+2026,World University Rankings 2026,Overall,overall,10.3,27.2,1501+,1501,-1,2026-04-25 23:27
+2026,World University Rankings 2026,Physical Sciences,physicalSciences,20.9,27.4,1001–1250,1001,1250,2026-04-25 23:27
+2026,World University Rankings 2026,Social Sciences,socialSciences,21.6,26.5,801–1000,801,1000,2026-04-25 23:27
